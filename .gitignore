@@ -1,0 +1,61 @@
+# Ambiente virtual (Linux, macOS, Windows)
+venv/
+.env/
+ENV/
+env/
+*.env
+
+# Arquivos de senha ou configs sensíveis
+*.key
+*.pem
+*.p12
+*.crt
+*.cfg
+*.conf
+*.ini
+secrets.*
+config.*
+credentials.*
+
+# Arquivos de log
+*.log
+logs/
+log/
+
+# Arquivos temporários e caches do Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Jupyter Notebook checkpoints (se usar notebooks)
+.ipynb_checkpoints/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Diretórios e arquivos do PyCharm/VSCode
+.vscode/
+.idea/
+
+# Dados temporários (caso gere arquivos temporários ou dados locais)
+tmp/
+temp/
+*.tmp
+
+# Arquivos do DuckDB (caso use arquivos locais)
+*.duckdb
+
+# Arquivos gerados automaticamente
+*.sqlite3
+*.db
+*.bak
+
+# Arquivos de testes ou outputs intermediários
+output/
+*.out
+*.csv
+*.tsv
+*.parquet
+*.json
