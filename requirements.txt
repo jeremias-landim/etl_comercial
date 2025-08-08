@@ -1,0 +1,8 @@
+sqlalchemy
+pyodbc
+pymysql
+duckdb
+pandas
+polars
+python-dotenv
+pyarrow
